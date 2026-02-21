@@ -3,6 +3,16 @@
 
 Welcome to the AI Network Watcher! This tool uses Deep Packet Inspection (DPI) and a local Large Language Model (LLM) to monitor your network traffic in real-time for privacy threats, data brokers, and security anomalies.
 
+Requirements
+requests
+ollama
+langchain
+langchain-community
+langchain-text-splitters
+chromadb
+sentence-transformers
+EOF
+
 ## ✨ Features
 
 - 🔍 **Deep Packet Inspection**: Captures live network traffic using TShark without dropping packets.
